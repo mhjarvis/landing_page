@@ -1,4 +1,4 @@
-# landing_page
+# The Odin Project - Landing Page
 
 A sample landing page for The Odin Project.
 

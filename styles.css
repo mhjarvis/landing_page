@@ -53,6 +53,7 @@ header h3 {
 
 .intro-stuff {
     text-align: left;
+    margin-right: 20px;
 }
 
 .intro-stuff h1 {
@@ -64,7 +65,7 @@ header h3 {
 .intro-stuff p {
     color: #e5e7eb;
     font-size: 18px;
-    margin-right: 60px;
+    margin-left: 0;
 }
 
 .intro-stuff button {
@@ -75,7 +76,7 @@ header h3 {
     padding: 8px 30px;
     border-style: none;
     border-radius: 8px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .image-placeholder {
@@ -85,21 +86,24 @@ header h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
+    height: 250px;
 }
 
-/********** Section 1 **********/
+/********** Section 2 **********/
 .section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
     width: 100%;
+    height: 400px;
 }
 
 .section-2-content {
     margin: 0 150px 0 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: inherit;
 }
 
 .section-2 h2 {
@@ -110,22 +114,106 @@ header h3 {
 
 .boxes {
     display: flex;
-
+    margin: 30px 0 30px 0;
+    text-align: center;
 }
 
-.boxes div {
+.boxes div, p {
     flex: 1;
-
-
+    margin: 10px 15px 10px 15px;
 }
 
 .boxes div p {
-    width: 160px;
+    width: 150px;
+    color: #1F2937
 }
 
 .box {
     border: 4px solid #3882F6;
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border-radius: 16px;
+}
+
+/********** Section 3 **********/
+
+.section-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 0 150px 0;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0 320px 0 320px;
+    text-align: left;
+}
+
+.quote-author {
+    font-size: 28px;
+    align-self: flex-end;
+    margin: 0 320px 0 320px;
+    font-weight: 500;
+}
+
+/********** Section 4 **********/
+
+.section-4 {
+    background-color: white;
+    color: white;
+
+    margin: 0;
+    padding: 100px;
+
+}
+
+.sign-up {
+    background-color: #3882F6;
+    margin: 0 150px 0 150px;
+    padding: 0 100px 0 100px;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up div {
+    text-align: left;
+    flex: 1;
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action-sub {
+    font-size: 18px;
+}
+
+.sign-up button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 30px;
+    border: 2px solid white;
+    box-shadow: none;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+/********** Footer **********/
+
+footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    margin: 35px;
+    font-size: 18px;
 }
